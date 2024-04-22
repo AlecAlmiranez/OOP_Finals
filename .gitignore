@@ -1,0 +1,20 @@
+# Ignore compiled files
+*.o
+*.out
+
+# Ignore dependency files
+*.d
+
+# Ignore executables
+*
+
+# But do not ignore Makefile
+!Makefile
+
+# Ignore directories
+/build/
+/dist/
+
+# Ignore IDE files
+.idea/
+.vscode/
